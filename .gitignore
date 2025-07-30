@@ -1,18 +1,65 @@
-# CMake
-build/
+# === Build folders ===
+/build/
 CMakeFiles/
 CMakeCache.txt
 cmake_install.cmake
 Makefile
 
-# Executables
-*.out
+# === Compiled binaries and objects ===
+*.o
+*.obj
 *.exe
-fem_main
+*.out
+*.a
+*.so
+*.mod
 
-# OS-specific
-.DS_Store
+# === VSCode configuration ===
+.vscode/settings.json
+.vscode/launch.json
+.vscode/tasks.json
 
-# VSCode
-.vscode/
+# === PETSc or other build artifacts ===
+*.log
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+petscconf.h
+libpetsc*
+
+# === Eigen (if header-only, no effect) ===
+
+# === Python bindings (pybind11 or Cython) ===
+*.so
+*.cpp  # sometimes generated
+*.c
+*.pyd
+
+# === IDE or system files ===
+*~
+*.swp
+*.DS_Store
+*.bak
+*.tmp
+
+# === Test & output data ===
+/data/*.dat
+/output/
+*.vtu
+*.vtk
+*.csv
+*.json
+*.h5
+
+# === Logs ===
+*.log
+*.err
+*.out
+
+# === Cache / profiling ===
+.cache/
+*.prof
+*.perf
+
 
