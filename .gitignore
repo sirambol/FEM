@@ -1,0 +1,18 @@
+# CMake
+build/
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+
+# Executables
+*.out
+*.exe
+fem_main
+
+# OS-specific
+.DS_Store
+
+# VSCode
+.vscode/
+
