@@ -16,18 +16,6 @@ Le cœur du code est en C++17, construit avec CMake, et prévoit des extensions 
 
 ---
 
-## Structure du projet
-
-├── include/ # Headers C++
-├── src/ # Fichiers sources C++
-├── python/ # Bindings Python (pybind11)
-├── tests/ # Tests unitaires (à venir)
-├── CMakeLists.txt # Configuration du projet
-└── README.md
-
-
----
-
 ## Compilation
 
 ### Prérequis
